@@ -22,7 +22,8 @@ def combine_text_files(folder_path, output_file):
     except Exception as e:
         print(f"Произошла ошибка: {e}")
 
-# Пример использования
-folder_path = "/home/irina/git/LexNorm/data/full_dataset/train"
-output_file = "/home/irina/git/LexNorm/data/full_dataset/train/ALL.txt"
+
+folder_path = "/home/irina/git/LexNorm/data/parts/markup_parts/new"
+output_file = "/home/irina/git/LexNorm/data/parts/markup_parts/new/ALL.txt"
+
 combine_text_files(folder_path, output_file)
