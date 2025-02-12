@@ -14,8 +14,8 @@ def remove_inpt_lines(input_file, output_file):
                 outfile.write(line)
 
 # Укажите пути к файлам
-input_file = '/home/irina/git/LexNorm/data/parts/markup_parts/ans_1201-1400.txt'
-output_file = '/home/irina/git/LexNorm/data/parts/markup_parts/12.txt'
+input_file = '/home/irina/git/LexNorm/data/parts/markup_parts/new/ALL.txt'
+output_file = '/home/irina/git/LexNorm/data/parts/markup_parts/new/ALL_clean.txt'
 
 # Выполнение функции
 remove_inpt_lines(input_file, output_file)
