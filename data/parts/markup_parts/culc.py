@@ -1,4 +1,4 @@
-with open("/home/irina/git/LexNorm/data/unchecked_markup/synt_tweets_markup.txt", 'r') as f:
+with open("/home/irina/git/LexNorm/data/full_dataset/test/test_norm.txt", 'r') as f:
     sentences = f.read().split("\n\n")[:-1]
 
 sentences = [s.split('\n') for s in sentences]

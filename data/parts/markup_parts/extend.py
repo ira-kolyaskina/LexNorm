@@ -23,6 +23,6 @@ def combine_text_files(folder_path, output_file):
         print(f"Произошла ошибка: {e}")
 
 # Пример использования
-folder_path = "/home/irina/git/LexNorm/data/parts/markup_parts/ALL"
-output_file = "/home/irina/git/LexNorm/data/parts/markup_parts/ALL/ALL.txt"
+folder_path = "/home/irina/git/LexNorm/data/full_dataset/train"
+output_file = "/home/irina/git/LexNorm/data/full_dataset/train/ALL.txt"
 combine_text_files(folder_path, output_file)
