@@ -1,13 +1,20 @@
 # RuLexNorm: A Lexical Normalization Dataset for Russian Social Media Text 
 
 
-**RuLexNorm** — the first open dataset for lexical normalization of Russian-language social media texts. 
+**RuLexNorm** — the first open dataset for lexical normalization of Russian-language social media texts.
+
 **Disclaimer:** This dataset contains real comments with explicit or potentially sensitive content.
 
 ## Description
 
-- Dataset: The data/dataset/RuLexNorm.norm file contains the core dataset of over 6,000 Russian text pairs from Twitter (X), mapping informal utterances to their normalized equivalents.
-- Model: A baseline Transformer-based model for automatic lexical normalization of Russian social media text.
+- **Dataset** 
+
+The `data/dataset/RuLexNorm.norm` file contains the core dataset of over 6,000 Russian text pairs from Twitter (X), mapping informal utterances to their normalized equivalents.
+- **Model** 
+
+The provided baseline model for lexical normalization is implemented in PyTorch using the Hugging Face transformers library. It is based on a fine-tuned version of the Qwen2.5-3B model, adapted for Russian.
+
+The model is saved in the `LexNorm/model/trained_model/` directory.
 
 ## Data Format
 
@@ -31,7 +38,7 @@ The normalization can be of three types:
    чуть \t
    ```
 
-## Citing work
+## Authors
 
 - Irina Koliaskina
 - Dmitry Sholomov
