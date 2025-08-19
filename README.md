@@ -43,16 +43,10 @@ The normalization can be of three types:
 - Irina Koliaskina
 - Dmitry Sholomov
 
-## Citing work
-
-If you use the **RuLexNorm** corpus, please cite the following paper:
-
-`TODO`
-
 ## License
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 2.5 Generic License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/2.5/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 ---
 
-For any questions or suggestions, please contact Irina Koliaskina (ira.koliaskina@gmail.com)
+For any questions or suggestions, please contact Irina Koliaskina (i.kolyaskina@smartengines.com)
