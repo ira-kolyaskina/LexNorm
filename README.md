@@ -47,7 +47,7 @@ The normalization can be of three types:
 
 If you use the **RuLexNorm** corpus, please cite the following paper:
 
-TODO
+`TODO`
 
 ## License
 
