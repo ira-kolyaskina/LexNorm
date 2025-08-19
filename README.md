@@ -9,16 +9,16 @@
 
 - **Dataset** 
 
-The `data/dataset/RuLexNorm.norm` file contains the core dataset of over 6,000 Russian text pairs from Twitter (X), mapping informal utterances to their normalized equivalents.
+The `data/RuLexNorm.norm` file contains the core dataset of over 6,000 Russian text pairs from Twitter (recently X), mapping informal utterances to their normalized equivalents.
 - **Model** 
 
 The provided baseline model for lexical normalization is implemented in PyTorch using the Hugging Face transformers library. It is based on a fine-tuned version of the Qwen2.5-3B model, adapted for Russian.
 
-The model is saved in the `LexNorm/model/trained_model/` directory.
+The model is saved in the `LexNorm/model/` directory.
 
 ## Data Format
 
-The dataset is provided in a data/dataset/RuLexNorm.norm file. The corpus is organized into entries separated by blank lines. Each entry consists of one or more lines representing a single text pair.
+The corpus is organized into entries separated by blank lines. Each entry consists of one or more lines representing a single text pair.
 
 Each line within an entry follows this structure:
 *   **Original token** `[TAB]` **Normalized form**
@@ -55,4 +55,4 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 2.5 Gene
 
 ---
 
-For any questions or suggestions, please contact Irina Koliaskina (ira.koliaskian@mail.com)
+For any questions or suggestions, please contact Irina Koliaskina (ira.koliaskina@gmail.com)
